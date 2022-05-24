@@ -13,7 +13,7 @@ spec:
         app: jenkins-demo
     spec:
       containers:
-      - image: xuegod/jenkins-demo:<BUILD_TAG>
+      - image: harbor.justbeta.pro:8443/devops/jenkins-demo:<BUILD_TAG>
         imagePullPolicy: IfNotPresent
         name: jenkins-demo
         env:
